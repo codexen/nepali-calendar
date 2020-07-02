@@ -5,7 +5,6 @@ body, html {
 
 .xen-card {
 	z-index: 10;
-	position: absolute;
 	display: block;
 	width: 100%;
 	background: #f3f3f3;
