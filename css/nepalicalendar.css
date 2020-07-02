@@ -7,23 +7,24 @@ body, html {
 	z-index: 10;
 	display: block;
 	width: 100%;
-	background: #f3f3f3;
+	background: #fff;
 	box-sizing: border-box;
 	font-size: 13px;
 	padding: 20px;
 }
 
-.xen-card-header {
+.xen-card .xen-card-header {
 	background: #3e454d;
 	padding: 25px 20px;
 	overflow: auto;
 }
 
-.xen-cell {
+.xen-card .xen-cell {
 	cursor: pointer;
 	position: relative;
 	text-align: center;
 	width: 10%;
+	padding: 3%;
 }
 
 .xen-cell .nepali-date {
@@ -44,14 +45,14 @@ body, html {
 	color: #FFF;
 }
 
-table.xen-calendar-table {
+.xen-card table.xen-calendar-table {
 	width: 100%;
-	height: 85vh;
+	background: #f3f3f3;
 	border-collapse: collapse;
 }
 
-table.xen-calendar-table, .xen-calendar-table th, .xen-calendar-table  td {
-	padding: 5px;
+.xen-card table.xen-calendar-table, .xen-card .xen-calendar-table th, .xen-card .xen-calendar-table  td {
+	/*padding: 5px;*/
 }
 
 .xen-calendar-table th {
@@ -105,7 +106,7 @@ table.xen-calendar-table, .xen-calendar-table th, .xen-calendar-table  td {
 	font-size: 16px;
 }
 
-button#next, button#previous {
+.xen-card button#next, .xen-card button#previous {
 	position: absolute;
 	background: none;
     outline: none;
@@ -115,11 +116,11 @@ button#next, button#previous {
     line-height: 45px;
 }
 
-button#previous {
+.xen-card button#previous {
 	left: 10px;
 }
 
-button#next {
+.xen-card button#next {
 	right: 10px;
 }
 
