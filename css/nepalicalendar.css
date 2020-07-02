@@ -10,12 +10,11 @@ body, html {
 	background: #fff;
 	box-sizing: border-box;
 	font-size: 13px;
-	/*padding: 20px;*/
 }
 
 .xen-card .xen-card-header {
 	background: #3e454d;
-	padding: 25px 20px;
+	padding: 20px;
 	overflow: auto;
 }
 
@@ -51,10 +50,6 @@ body, html {
 	border-collapse: collapse;
 }
 
-.xen-card table.xen-calendar-table, .xen-card .xen-calendar-table th, .xen-card .xen-calendar-table  td {
-	/*padding: 5px;*/
-}
-
 .xen-calendar-table th {
     text-align: center;
     font-weight: normal;
@@ -84,7 +79,7 @@ body, html {
 .xen-calendar-month, .xen-calendar-year {
 	background: none;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -112,6 +107,7 @@ body, html {
     border: none;
     color: white;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .xen-card button#previous {
