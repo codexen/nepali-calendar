@@ -55,6 +55,7 @@ body, html {
     font-weight: normal;
     background: #7e8389;
     color: #ffffff;
+    padding: 5px 0;
 }
 
 .xen-prev-next-btn {
@@ -106,7 +107,7 @@ body, html {
     outline: none;
     border: none;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
 }
 
