@@ -7,4 +7,4 @@
 
 # DEMO
 
-![Nepali datepicker](https://github.com/codexen/nepali-datepicker/blob/master/demo.png "Nepali calendar")
+![Nepali datepicker](https://github.com/codexen/nepali-calendar/blob/master/demo.png "Nepali calendar")
