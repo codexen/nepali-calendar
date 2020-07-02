@@ -6,5 +6,5 @@
 - $('.classname').nepalicalendar();
 
 # DEMO
-[View demo](https://codexen.github.io/nepali-calendar/index.html)
+[https://codexen.github.io/nepali-calendar/](https://codexen.github.io/nepali-calendar/)
 ![Nepali datepicker](https://github.com/codexen/nepali-calendar/blob/master/demo.png "Nepali calendar")
